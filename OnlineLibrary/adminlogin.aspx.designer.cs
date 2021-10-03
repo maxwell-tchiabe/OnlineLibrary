@@ -11,7 +11,7 @@ namespace OnlineLibrary
 {
 
 
-    public partial class userlogin
+    public partial class adminlogin
     {
 
         /// <summary>

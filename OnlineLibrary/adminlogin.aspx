@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userlogin.aspx.cs" Inherits="OnlineLibrary.userlogin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminlogin.aspx.cs" Inherits="OnlineLibrary.adminlogin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -11,14 +11,14 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <img width="150px" src="imgs/generaluser.png"/>
+                           <img width="150px" src="imgs/adminuser.png"/>
                         </center>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col">
                         <center>
-                           <h3>Member Login</h3>
+                           <h3>Admin Login</h3>
                         </center>
                      </div>
                   </div>
@@ -29,21 +29,13 @@
                   </div>
                   <div class="row">
                      <div class="col">
-                        <label>Member ID</label>
+                        <label>Admin ID</label>
                         <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Member ID"></asp:TextBox>
+                           <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Admin ID"></asp:TextBox>
                         </div>
                         <label>Password</label>
-                        <div class="form-group">
-                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
-                        </div>
-                         <div class="row">
-                     <div class="col">
-                        <hr>
-                     </div>
-                  </div>
                         <div class="d-grid gap-2">
-                           <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" />
+                           <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                         </div>
 
                          <div class="row">
@@ -52,7 +44,7 @@
                      </div>
                   </div>
                         <div class="d-grid gap-2">
-                           <a href="usersignup.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Sign Up" /></a>
+                           <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="Login" />
                         </div>
                      </div>
                   </div>
