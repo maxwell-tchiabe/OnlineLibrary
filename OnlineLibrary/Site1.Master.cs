@@ -13,5 +13,21 @@ namespace OnlineLibrary
         {
 
         }
+
+        protected void LinkButton6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminlogin.aspx");
+        }
+
+
+        protected void LinkButton11_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("adminauthormanagement.aspx");
+        }
+
+        protected void LinkButton12_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminpublishermanagement.aspx");
+        }
     }
 }
