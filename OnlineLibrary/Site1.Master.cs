@@ -29,5 +29,43 @@ namespace OnlineLibrary
         {
             Response.Redirect("adminpublishermanagement.aspx");
         }
+
+        protected void LinkButton8_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("adminbookinventory.aspx");
+        }
+
+        protected void LinkButton9_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminbookissuing.aspx");
+        }
+
+        protected void LinkButton10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminmembermanagement.aspx");
+        }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("viewbooks.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userlogin.aspx");
+        }
+
+        // logout button
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("usersignup.aspx");
+        }
+
+        //view profile
+        protected void LinkButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

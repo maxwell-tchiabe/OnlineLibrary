@@ -142,7 +142,7 @@
                      <div class="col-8 mx-auto">
                         <center>
                            <div class="form-group">
-                              <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="sign up" />
+                              <asp:Button class="btn btn-success btn-block btn-lg" ID="Button1" runat="server" Text="sign up" OnClick="Button1_Click" />
                            </div>
                         </center>
                      </div>
