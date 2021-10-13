@@ -11,6 +11,7 @@ namespace OnlineLibrary
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          
 
         }
 
@@ -56,16 +57,33 @@ namespace OnlineLibrary
             Response.Redirect("userlogin.aspx");
         }
 
-        // logout button
+        
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             Response.Redirect("usersignup.aspx");
         }
 
-        //view profile
+        // logout button
         protected void LinkButton3_Click(object sender, EventArgs e)
         {
+            Session["username"] = "";
+            Session["fullname"] = "";
+            Session["role"] = "";
+            Session["status"] = "";
 
+            LinkButton1.Visible = true; // user login link button
+            LinkButton2.Visible = true; // sign up link button
+
+            LinkButton3.Visible = false; // logout link button
+            LinkButton7.Visible = false; // hello user link button
+
+
+            LinkButton6.Visible = true; // admin login link button
+            LinkButton11.Visible = false; // author management link button
+            LinkButton12.Visible = false; // publisher management link button
+            LinkButton8.Visible = false; // book inventory link button
+            LinkButton9.Visible = false; // book issuing link button
+            LinkButton10.Visible = false; // member management link button
         }
     }
 }
