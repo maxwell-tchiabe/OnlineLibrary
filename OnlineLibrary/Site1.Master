@@ -34,10 +34,10 @@
 <body>
     <form id="form1" runat="server">
         
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <div >
+            <nav  class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
-                    <img src="imgs/books.png" width="30" height="30" />
+                    <img src="imgs/bild1.jfif" width="30" height="30" />
                     E-Library
                 </a>
 
@@ -119,7 +119,7 @@
             <div id="footer2" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Simple Snippets</a></p>
+                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">maxwell tchiabe</a></p>
                     </div>
                 </div>
             </div>

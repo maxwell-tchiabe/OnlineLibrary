@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <section>
-      <img src="imgs/home-bg.jpg" class="img-fluid"/>
+      <img src="imgs/elibrary.jpg" class="img-fluid"/>
    </section>
    <section>
       <div class="container">
@@ -19,30 +19,30 @@
          <div class="row">
             <div class="col-md-4">
                <center>
-                  <img width="150px" src="imgs/digital-inventory.png"/>
+                  <img width="300px" src="imgs/bild2.jfif"/>
                   <h4>Digital Book Inventory</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                 
                </center>
             </div>
             <div class="col-md-4">
                <center>
                   <img width="150px" src="imgs/search-online.png"/>
                   <h4>Search Books</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                  
                </center>
             </div>
             <div class="col-md-4">
                <center>
-                  <img width="150px" src="imgs/defaulters-list.png"/>
+                  <img width="250px" src="imgs/bild3.jfif"/>
                   <h4>Defaulter List</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                 
                </center>
             </div>
          </div>
       </div>
    </section>
    <section>
-      <img src="imgs/in-homepage-banner.jpg" class="img-fluid"/>
+      <img src="imgs/cropped-elibrary.jpg" class="img-fluid"/>
    </section>
    <section>
       <div class="container">
@@ -57,23 +57,23 @@
          <div class="row">
             <div class="col-md-4">
                <center>
-                  <img width="150px" src="imgs/sign-up.png" />
+                  <img width="300px" src="imgs/bild2.jfif" />
                   <h4>Sign Up</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                
                </center>
             </div>
             <div class="col-md-4">
                <center>
                   <img width="150px" src="imgs/search-online.png"/>
                   <h4>Search Books</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                 
                </center>
             </div>
             <div class="col-md-4">
                <center>
-                  <img width="150px" src="imgs/library.png"/>
+                  <img width="250px" src="imgs/bild1.jfif"/>
                   <h4>Visit Us</h4>
-                  <p class="text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                
                </center>
             </div>
          </div>
