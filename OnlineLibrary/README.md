@@ -36,15 +36,17 @@
 To install and run this project follow these steps:
 1. clone this Repositorie on Githup https://github.com/maxwell-tchiabe/OnlineLibrary.git
 2. install visual studio 2019
-
 3.MS sql Server
 
 
 ## Technologie
 
 1. C#
+
 2. ASP.NET
+
 3.Bootstrap
+
 4. Ms sql Server
 
 
