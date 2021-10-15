@@ -1750,6 +1750,7 @@
     <Content Include="imgs\search-online.png" />
     <Content Include="imgs\sign-up.png" />
     <Content Include="imgs\writer.png" />
+    <Content Include="Screenshot1.png" />
     <Content Include="userlogin.aspx" />
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
@@ -1900,6 +1901,7 @@
     <Content Include="fontAwesome\webfonts\fa-solid-900.woff2" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

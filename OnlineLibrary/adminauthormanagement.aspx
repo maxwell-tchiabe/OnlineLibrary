@@ -1,5 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="adminauthormanagement.aspx.cs" Inherits="OnlineLibrary.adminauthormanagement" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+      <script type="text/javascript">
+      $(document).ready(function () {
+      
+          //$(document).ready(function () {
+              //$('.table').DataTable();
+         // });
+      
+          $(".table").prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+          //$('.table1').DataTable();
+      });
+      </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
@@ -39,7 +50,7 @@
                                 <div class="form-group">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="ID"></asp:TextBox>
-                                        <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="Go" />
+                                        <asp:Button class="btn btn-primary" ID="Button1" runat="server" Text="Go" OnClick="Button1_Click1" />
                                     </div>
                                 </div>
                             </div>
@@ -55,13 +66,13 @@
 
                         <div class="row">
                             <div class="col-4">
-                                <asp:Button ID="Button2" class="btn btn-lg btn-block btn-success" runat="server" Text="Add" />
+                                <asp:Button ID="Button2" class="btn btn-lg btn-block btn-success" runat="server" Text="Add" OnClick="Button2_Click1" />
                             </div>
                             <div class="col-4">
-                                <asp:Button ID="Button3" class="btn btn-lg btn-block btn-warning" runat="server" Text="Update" />
+                                <asp:Button ID="Button3" class="btn btn-lg btn-block btn-warning" runat="server" Text="Update" OnClick="Button3_Click1" />
                             </div>
                             <div class="col-4">
-                                <asp:Button ID="Button4" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" />
+                                <asp:Button ID="Button4" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" OnClick="Button4_Click1" />
                             </div>
                         </div>
 
@@ -97,8 +108,14 @@
                         </div>
 
                         <div class="row">
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:elibraryDBConnectionString %>" SelectCommand="SELECT * FROM [author_master_tbl]"></asp:SqlDataSource>
                             <div class="col">
-                                <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server"></asp:GridView>
+                                <asp:GridView class="table table-striped table-bordered" ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="author_id" DataSourceID="SqlDataSource1" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                                    <Columns>
+                                        <asp:BoundField DataField="author_id" HeaderText="author_id" ReadOnly="True" SortExpression="author_id" />
+                                        <asp:BoundField DataField="author_name" HeaderText="author_name" SortExpression="author_name" />
+                                    </Columns>
+                                </asp:GridView>
                             </div>
                         </div>
 
