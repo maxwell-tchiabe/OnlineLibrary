@@ -40,8 +40,7 @@ To install and run this project follow these steps:
 
 ## Technologie
 1. C#
-2. ASP.NET
-3.Bootstrap
+2. ASP.NET and Bootstrap
 4. Ms sql Server 
 
 
